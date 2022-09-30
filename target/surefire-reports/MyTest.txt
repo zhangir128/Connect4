@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: MyTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.375 s <<< FAILURE! - in MyTest
+testSetClicked  Time elapsed: 0.366 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at MyTest.testSetClicked(MyTest.java:22)
+Caused by: java.lang.IllegalStateException: Toolkit not initialized
+	at MyTest.testSetClicked(MyTest.java:22)
+
+testValidMove  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class GameButton
+	at MyTest.testValidMove(MyTest.java:15)
+
+testConstructor  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class GameButton
+	at MyTest.testConstructor(MyTest.java:8)
+
